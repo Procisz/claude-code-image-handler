@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-image-handler",
+  "owner": {
+    "name": "Procisz"
+  },
+  "plugins": [
+    {
+      "name": "image-handler",
+      "source": "./",
+      "description": "Shows a preview tile with spinner, name and delete button above the prompt for every image you paste, drop or reference."
+    }
+  ]
+}

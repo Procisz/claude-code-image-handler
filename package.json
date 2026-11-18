@@ -1,0 +1,48 @@
+{
+  "name": "claude-code-image-handler",
+  "version": "0.1.0",
+  "description": "Claude Code mod that shows a preview tile with spinner, name and delete button for every image added to the prompt.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "author": "Procisz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Procisz/claude-code-image-handler.git"
+  },
+  "homepage": "https://github.com/Procisz/claude-code-image-handler#readme",
+  "bugs": {
+    "url": "https://github.com/Procisz/claude-code-image-handler/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-mod",
+    "image",
+    "preview",
+    "thumbnail",
+    "terminal"
+  ],
+  "files": [
+    ".claude-plugin/plugin.json",
+    ".claude-plugin/marketplace.json",
+    "hooks",
+    "src",
+    "types",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "validate": "claude plugin validate ."
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "5.1.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
+  }
+}

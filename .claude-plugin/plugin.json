@@ -1,0 +1,20 @@
+{
+  "name": "image-handler",
+  "description": "Shows a preview tile with spinner, name and delete button above the prompt for every image you paste, drop or reference.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Procisz"
+  },
+  "homepage": "https://github.com/Procisz/claude-code-image-handler#readme",
+  "repository": "https://github.com/Procisz/claude-code-image-handler",
+  "license": "MIT",
+  "userConfig": {
+    "clipboard_watch": {
+      "type": "boolean",
+      "title": "Watch the clipboard",
+      "description": "Offer a tile when a new picture is copied. /paste auto on|off switches it for the session.",
+      "default": true
+    }
+  },
+  "keywords": ["image", "preview", "thumbnail", "paste", "drag-and-drop", "terminal"]
+}
